@@ -6,8 +6,17 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <meta name="viewport" content="width=device-width">
     <title>Tierfotografie</title>
-    <link rel="stylesheet" href="../CSS/index.css">
+   <!--  <link rel="stylesheet" href="../CSS/index.css"> -->
     <link rel="stylesheet" href="../CSS/header.css">
+
+    <style>
+       
+       .oblozhka {
+        display: flex;
+        flex-wrap: wrap;
+       }
+
+    </style>
 </head>
 <body>
     <!--адаптив-->
@@ -21,43 +30,28 @@
             <div class="heder__row">-->
         
         
+            
+    <nav class="navigation">
+        <div class="navigation__containier">
             <a href="home.html">
-                <img src="/IMG/logo.png" alt="logo" class="logo">
+                <img src="/IMG/logo.png" alt="logo" class="navigation__logo">
             </a>
-        <nav class="navigation">
-            <ul class="menu">
-                <li>
-                    <a href="home.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="Preise.html">
-                        Preise
-                    </a>
-                </li>
-                <li>
-                    <a href="Portfolio.html">
-                        Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a href="Ueber_mich.html">
-                        Über mich
-                    </a>
-                </li>
-                 <li>
-                <a href="Kontakt.html">
-                    Kontakt
-                </a>
-            </li>
-            <span>
-            <li>
-            <a href="tel: 0 1577 3999 273">0 1577 3999 273
-            </a> 
-             </li>
-            </span>
-    </ul>
+        <div class="navigation__wrap">
+            <ul class="navigation__menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Preise.html">Preise</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Ueber_mich.html">Über mich</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
+
+            <!-- <span>
+                <li> -->
+                    <a href="tel: 0 1577 3999 273" class="navigation__tel">0 1577 3999 273</a>
+                <!-- </li>
+            </span> -->
+        </div>
+            </ul>
+        </div>
     </nav>
     <!-- </div>
         </div>
@@ -66,8 +60,9 @@
             
     </header>
     <main>
+        <div class="oblozhka">
         <img src="../IMG/oblozhka.jpg" alt="oblozhka">
-        <h2>NTR</h2>
+        </div>
     </main>
     <footer></footer>
 </div>

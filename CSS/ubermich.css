@@ -7,12 +7,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 100px 10px 10px 10px;
+    margin: 200px 10px 10px 10px;
 }
 
 
 .img-block{
-    padding: 35px;
+
     width: 50%;
     height: 100;
    /* background-color: blue;*/
@@ -28,6 +28,7 @@ main {
 
 p  {width: 30%;
     height: 100%;
+
 }
 
 .string-block{
